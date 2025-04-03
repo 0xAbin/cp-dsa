@@ -15,13 +15,11 @@ add_executable(Clion
         # Test/testasw.cpp
        # leetcode/topKFreqelements/worstcase.cpp
         # leetcode/EncodeDecode/encodedecode.cpp
-        leetcode/ProductOfarrayExpectSelf/productsofarrayexptself.cpp
-
-
+       # leetcode/ProductOfarrayExpectSelf/productsofarrayexptself.cpp
 
 
 
         #                                                               "--Quant---"
-#        quant/HFT/marketmaker.cpp
-
+        #quant/HFT/marketmaker.cpp
+        warmup/main.cpp
 )

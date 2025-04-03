@@ -1,6 +1,6 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/Clion.dir/leetcode/ProductOfarrayExpectSelf/productsofarrayexptself.cpp.o"
-  "CMakeFiles/Clion.dir/leetcode/ProductOfarrayExpectSelf/productsofarrayexptself.cpp.o.d"
+  "CMakeFiles/Clion.dir/warmup/main.cpp.o"
+  "CMakeFiles/Clion.dir/warmup/main.cpp.o.d"
   "Clion"
   "Clion.pdb"
 )

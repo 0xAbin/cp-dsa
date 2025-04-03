@@ -9,7 +9,7 @@ using namespace std;
 vector<int> bruteForce(vector<int>& nums) {
 
     int n = nums.size();
-    vector<int> res(n);
+    vector<int> res( n);
 
     for (int i = 1; i < n; i++){
         int p = 1;
