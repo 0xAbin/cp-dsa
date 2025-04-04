@@ -21,5 +21,6 @@ add_executable(Clion
 
         #                                                               "--Quant---"
         #quant/HFT/marketmaker.cpp
+        warmup/utils.cpp
         warmup/main.cpp
 )

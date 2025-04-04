@@ -4,8 +4,17 @@
 
 
 #include<iostream>
-
+#include "utils.h"
 
 int main () {
-    std::cout << "C++ warmup" ;
+//    char buff[512];
+//    std::cin.getline(buff, 512, '\n');
+
+   int x , y;
+
+   std::cin >> x >> y ;
+
+   int result = Add(x,y);
+
+   std::cout << result << " " << "data";
 }
