@@ -14,10 +14,16 @@ int main () {
 
  int arr[] = {1,2,3,4,5};
 
-  // added auto for dynamic type and added reference for reducing copy of the item
- for (auto & x : arr) {
-     cout << x ;
- }
+  int *s = &arr[0];
+
+  int *l = &arr[5];
+
+  while (s != l) {
+      cout << *s;
+      ++s;
+  }
+
+
 
 
  return 0;
