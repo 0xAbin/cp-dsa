@@ -4,17 +4,21 @@
 
 
 #include<iostream>
-#include "utils.h"
+//#include "utils.h"
+
+using namespace std;
+
+
 
 int main () {
-//    char buff[512];
-//    std::cin.getline(buff, 512, '\n');
 
-   int x , y;
+ int arr[] = {1,2,3,4,5};
 
-   std::cin >> x >> y ;
+  // added auto for dynamic type and added reference for reducing copy of the item
+ for (auto & x : arr) {
+     cout << x ;
+ }
 
-   int result = Add(x,y);
 
-   std::cout << result << " " << "data";
+ return 0;
 }
