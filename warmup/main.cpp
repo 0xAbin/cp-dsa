@@ -12,18 +12,15 @@ using namespace std;
 
 int main () {
 
- int arr[] = {1,2,3,4,5};
+ int arr[4] = {1,2,3,4};
 
-  int *s = &arr[0];
+ // 11 feature
+ int *b = begin(arr);
+ int *c = end(arr);
 
-  int *l = &arr[5];
-
-  while (s != l) {
-      cout << *s;
-      ++s;
-  }
-
-
+while (b != c) {
+ cout << *b++ << " ";
+}
 
 
  return 0;
